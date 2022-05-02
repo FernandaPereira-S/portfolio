@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: #1a202c;
+}
+
+.fundo {
+    background-color: #1a202c;
+    padding: 30px;
+}
+
+.cor-especial {
+    color: #cc68f5!important;
+    font-size: 1.5rem;
+}
+
+#apresentacao {
+    background-image: url('./imagens/pixel-jeff-clipa-s.gif');
+    height: 320px;
+    color: white;
+    padding: 60px 0 0 50px;
+    font-size: 1.5rem;
+}
+
+#apresentacao > h1 {
+    font-size: 3.5rem;
+}
+
+#sobre {
+    background-color: rgb(3, 26, 48);
+    border-radius: 50px;
+    width: 80%;
+    height: 830px;  
+    margin: 5% 0 0 9%; 
+    padding: 2%;
+    text-align: center;
+    border: solid #cc68f5;
+    color: white;
+    font-size: 1.6rem;
+}
+
+h2 {
+    color: #cc68f5;
+}
+
+#skills {
+    background-color: rgb(3, 26, 48);
+    border-radius: 50px;
+    width: 80%;
+    height: 500px;  
+    margin: 5% 0 0 9%; 
+    padding: 2%;
+    text-align: center;
+    border: solid #cc68f5;
+    color: white;
+    font-size: 1.6rem;
+}
+
+#skills > img {
+    width: 10%;
+    margin: 3% 5%;
+}
+
+#projetos {
+    background-color: rgb(3, 26, 48);
+    border-radius: 50px;
+    width: 80%;
+    height: 1920px;  
+    margin: 5% 0 0 9%; 
+    padding: 2%;    
+    border: solid #cc68f5;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+.card {
+    margin: 5% 0 0 9%; 
+    background-color: #1a202c;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.btn {
+    background-color: #cc68f5;
+    margin-top: 5%;
+    font-size: 1.2rem;
+}
+
+.imagem-projeto { 
+    height: 298px;
+    object-fit: cover;
+}
+
+#contato {
+    background-color: rgb(3, 26, 48);
+    border-radius: 50px;
+    width: 80%;
+    height: 330px;  
+    margin: 5% 0 0 9%; 
+    padding: 2%;
+    text-align: center;
+    border: solid #cc68f5;
+    color: white;
+    font-size: 1.6rem;
+}
+
+#contato > p {
+    margin: 20px;
+}
+
+a > img {
+    width: 60px;
+    height: 60px;
+    margin: 10px 10px 0 0;
+}
+
+footer {
+    background-color: rgb(3, 26, 48);
+    width: 100%;
+    height: 60px;
+    color: #cc68f5;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
